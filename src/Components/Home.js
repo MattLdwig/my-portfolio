@@ -1,12 +1,13 @@
 import React from 'react'
+import styled from "styled-components";
 
 import logo from '../img/SVG/logo.svg'
 import Logo from './Logo'
 import RightArrow from './RightArrow'
-import './Header.css'
+import './Home.css'
 
 
-class Header extends React.Component {
+class Home extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -16,16 +17,17 @@ class Header extends React.Component {
 
   render() {
     return (
-    <header className="header--container">
-      <nav className="header--nav">
-      <span className="header--nav-animate"></span>
-        <Logo />
-        <ul className="header--items">
-          <li className="header--item active"><span className="accent--color">A propos</span></li>
-          <li className="header--item">Services</li>
-          <li className="header--item">Portfolio</li>
-        </ul>
-      </nav>
+      <Wrapper>
+      <header className="header--container">
+        <nav className="header--nav">
+          <span className="header--nav-animate"></span>
+          <Logo />
+          <ul className="header--items">
+            <li className="header--item active"><span className="accent--color">A propos</span></li>
+            <li className="header--item">Services</li>
+            <li className="header--item">Portfolio</li>
+          </ul>
+        </nav>
       <section className="header--main">
         <div className="header--welcome">
           <span className="header--hello-animate"></span><h1 className="header--hello">Hello <span className="accent--color dot-animated">.</span></h1>
@@ -50,8 +52,14 @@ class Header extends React.Component {
           <div className="reavealer-layer"></div>
       </nav>
     </header>
+    </Wrapper>
   )
   }
 }
 
-export default Header
+const Wrapper = styled.div`
+/* omitted */
+`;
+
+
+export default Home
