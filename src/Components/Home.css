@@ -33,10 +33,12 @@
     animation: rev-block 3s ease both;
 }
 
+
 .header--container::after {
     animation: rev-block-inverse 3s ease both;
     animation-delay: 6.5s;
 }
+
 
 .header--nav {
     grid-column: 2 / 7;

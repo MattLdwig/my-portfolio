@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from "styled-components";
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import logo from '../img/SVG/logo.svg'
 import Logo from './Logo'
@@ -44,7 +46,7 @@ class Home extends React.Component {
           <span className="header--pres-animate"></span>
           <p>Un projet en tête ? Une envie de discuter ? <span className="accent--color contact">Contactez moi</span></p>
         </div>
-      <span><RightArrow /></span>
+        <Link to="/about" className="arrow-animated"><RightArrow /></Link>
       </section>
       <nav className={`pagenav revealer ${this.state.isRevealed ? 'active' : 'hidden'}`}>
           <div className="reavealer-layer"></div>
