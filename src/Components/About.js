@@ -1,11 +1,19 @@
 import React from 'react'
+import styled from "styled-components";
 
 function About() {
   return (
-    <section className="page">
-        <h1>Test</h1>
-    </section>
+    <Wrapper>
+      <section className="page">
+          <h1>Test</h1>
+      </section>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.div`
+/* omitted */
+`;
+
 
 export default About

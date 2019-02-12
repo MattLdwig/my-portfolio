@@ -4,14 +4,14 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import logo from './logo.svg';
 
-import Home from './Components/Home'
+import Container from './Components/Container'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Home />
+        <Container />
       </Router>
     );
   }
