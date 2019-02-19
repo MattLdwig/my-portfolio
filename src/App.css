@@ -1,3 +1,19 @@
+:root {
+  --almond: #70A4A2;
+  --black: #1A191B;
+  --lightPink: #F1DED4;
+  --blue: #7091B1;
+  --deepBlue: #13114B;
+  --lightGray: #EEEEED;
+  --lighterGray: #aaa9a3;
+  --sand: #D4D4D4;
+}
+
+body {
+  background-color: var(--lightGray)
+}
+
+
 .App {
 }
 

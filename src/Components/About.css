@@ -1,3 +1,21 @@
 .page {
-    background: red;
+    background: var(--black);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1100px 1fr;
+    align-items: center;
+    color: #FFF;
+}
+
+.align-center {
+    grid-column: 2;
+}
+
+.about--welcome,
+.about--pres {
+    font-size: 1.563em;
+}
+
+.about--call {
+    grid-column: 2;
 }

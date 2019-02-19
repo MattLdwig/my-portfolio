@@ -1,0 +1,18 @@
+.services--container {
+    background-color: var(--sand);
+    display: grid;
+    grid-template-columns: 1fr 1fr 10px 960px 10px 1fr 1fr;
+    height: 100vh;
+}
+
+.services--title {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.service--frontend,
+.service--design,
+.service--wordpress,
+.service--seo {
+    grid-column: 4
+}
