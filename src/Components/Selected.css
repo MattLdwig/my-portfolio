@@ -62,9 +62,19 @@
     text-transform: uppercase;
 }
 
+.selected--btn:hover {
+    box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
+    cursor: pointer;
+}
+
 .case-one .selected--btn {
     background: #8396A4;
     color: #FFF;
+}
+
+.case-one .selected--btn:hover {
+    background: #FFF;
+    color:#8396A4;
 }
 
 .case-two .selected--btn {
@@ -72,7 +82,17 @@
     color: #FFF;
 }
 
+.case-two .selected--btn:hover {
+    background: #FFF;
+    color:#93AA89;
+}
+
 .case-three .selected--btn {
     background: #A69696;
     color: #FFF;
+}
+
+.case-three .selected--btn:hover {
+    background: #FFF;
+    color:#A69696;
 }
