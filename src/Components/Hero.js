@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from "styled-components";
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
-import RightArrow from './RightArrow'
+import Arrow from './Arrow'
 import './Home.css'
 
 
@@ -27,7 +27,7 @@ class Hero extends React.Component {
           <span className="header--pres-animate"></span>
           <p>Un projet en tête ? Une envie de discuter ? <span className="accent--color contact">Contactez moi</span></p>
         </div>
-       <div onClick={this.updateStateAbout}><RightArrow /></div>
+       <div onClick={this.updateStateAbout} className="arrow-container"><Arrow /></div>
       </section>
   )
   }

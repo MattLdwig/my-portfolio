@@ -3,10 +3,12 @@
   --black: #1A191B;
   --lightPink: #F1DED4;
   --blue: #7091B1;
-  --deepBlue: #13114B;
-  --lightGray: #EEEEED;
+  --lighter: #D7D5C2;
+  --lightGray: #F3F3F3;
   --lighterGray: #aaa9a3;
   --sand: #D4D4D4;
+  --lightGreen: #D8E6F1;
+  --lightBlue: #E6F7DF; 
 }
 
 @import url("https://use.typekit.net/tgj3efo.css");
@@ -17,6 +19,10 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+}
+
+h2 {
+  font-size: 2.369em;
 }
 
 .App-logo {
@@ -40,9 +46,12 @@ body {
   color: #61dafb;
 }
 
-.left-arrow {
+.arrow {
   width: 50px;
-  align-self: flex-end; 
+}
+
+.arrow-container {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

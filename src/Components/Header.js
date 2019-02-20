@@ -7,7 +7,7 @@ import Hero from './Hero'
 
 import logo from '../img/SVG/logo.svg'
 import Logo from './Logo'
-import RightArrow from './RightArrow'
+import Arrow from './Arrow'
 import './Home.css'
 
 

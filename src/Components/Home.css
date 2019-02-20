@@ -182,6 +182,10 @@
     fill: var(--lightGray);
 }
 
+.arrow {
+  fill: var(--lighterGray)
+}
+
 /*.header--pres-animate,
 .header--nav-animate {
     background: var(--deepBlue);
