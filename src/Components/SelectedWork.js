@@ -2,25 +2,6 @@ import React from 'react'
 
 import './Selected.css';
 
-const selected = [
-    {
-        project: 'Amande et Basilic',
-        img: '',
-        pitch: 'La nouvelle maison des amoureux de la nature'
-    },
-    {
-        project: 'Amande et Basilic',
-        img: '',
-        pitch: 'La nouvelle maison des amoureux de la nature'
-    },
-    {
-        project: 'Amande et Basilic',
-        img: '',
-        pitch: 'La nouvelle maison des amoureux de la nature'
-    }
-]
-
-
 function SelectedWork() {
   return (
     <section className="selected--container">

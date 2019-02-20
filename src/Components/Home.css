@@ -175,11 +175,11 @@
 }
 
 .cls-1 {
-    fill: var(--almond);
+    fill: var(--black);
 }
 
 .cls-2 {
-    fill: var(--lightPink);
+    fill: var(--lightGray);
 }
 
 /*.header--pres-animate,

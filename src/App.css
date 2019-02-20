@@ -9,12 +9,14 @@
   --sand: #D4D4D4;
 }
 
+@import url("https://use.typekit.net/tgj3efo.css");
+
 body {
-  background-color: var(--lightGray)
-}
-
-
-.App {
+  background-color: var(--lightGray);
+  font-family: adobe-garamond-pro, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .App-logo {
