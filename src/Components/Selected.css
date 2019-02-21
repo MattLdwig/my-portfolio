@@ -1,6 +1,5 @@
 .selected--container {
     display: grid;
-    grid-template-columns: 1fr 1fr 10px 960px 10px 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
@@ -24,7 +23,6 @@
 
 .selected--img {
     width: 800px;
-    height: 500px;
     background: #FFF;
     border-radius: 4px;
     box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
@@ -48,7 +46,7 @@
 }
 
 .case-two {
-    background: var(--lightBlue);
+    background: #FFF;
 }
 
 .case-one {
@@ -78,13 +76,13 @@
 }
 
 .case-two .selected--btn {
-    background: #93AA89;
+    background: var(--black);
     color: #FFF;
 }
 
 .case-two .selected--btn:hover {
     background: #FFF;
-    color:#93AA89;
+    color: var(--black);
 }
 
 .case-three .selected--btn {
@@ -95,4 +93,11 @@
 .case-three .selected--btn:hover {
     background: #FFF;
     color:#A69696;
+}
+
+@media screen and (max-width: 830px) {
+    .selected--img {
+        width: calc(100vw - 50px);
+        height: auto;
+    }
 }

@@ -1,7 +1,6 @@
 .page {
     background: #FFF;
     display: grid;
-    grid-template-columns: 1fr 1100px 1fr;
     align-items: center;
     color: var(--black);
     padding: 3.5em 0;

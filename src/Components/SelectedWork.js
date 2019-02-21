@@ -1,4 +1,8 @@
 import React from 'react'
+import ab from '../img/ab_home.png'
+import drum from '../img/drum.png'
+import clem from '../img/clem_photo.png'
+
 
 import './Selected.css';
 
@@ -11,7 +15,7 @@ function SelectedWork() {
     </div>
       <div className="selected--container  case-one">
           <div className="selected--page">
-              <div className="selected--img"></div>
+              <img src={ab} className="selected--img" />
               <h2 className="selected--title">Amande et Basilic</h2>
               <p className="selected--sub">Wordpress Theme / React / Web design / SEO</p>
               <p className="selected--case">
@@ -24,7 +28,7 @@ function SelectedWork() {
       </div>
       <div className="selected--container case-two">
           <div className="selected--page">
-              <div className="selected--img"></div>
+              <img src={drum} className="selected--img" />
               <h2 className="selected--title">React Drum Machine</h2>
               <p className="selected--sub">Développement Front-end / React </p>
               <p className="selected--case">
@@ -35,7 +39,7 @@ function SelectedWork() {
       </div>
       <div className="selected--container  case-three">
           <div className="selected--page">
-              <div className="selected--img"></div>
+              <img src={clem} className="selected--img" />
               <h2 className="selected--title">Minimalist Pomodoro</h2>
               <p className="selected--sub">Développement Front-end / React</p>
               <p className="selected--case">

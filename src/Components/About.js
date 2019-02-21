@@ -5,53 +5,8 @@ import Logo from './Logo'
 
 import './About.css'
 
-const slideInLeft = keyframes`
-  from {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-`;
-
-// animation to slide out the home page to the left
-const slideOutLeft = keyframes`
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-`;
-
-const Page = styled.div``;
-
-// apply the correct animation based on the transition state class name.
-const HomePageElm = styled(Page)`
-  .cls-1 {
-    fill: #FFF;
-}
-  &.page-enter {
-    animation: ${slideInLeft} 1s forwards;
-  }
-  &.page-exit {
-    animation: ${slideOutLeft} 1s forwards;
-  }
-`;
-
-
 function About() {
   return (
-    <HomePageElm>
-    <Wrapper>
       <section className="page about">
       <div className="align-center">
       <h1 className="about--title">About me.</h1>
@@ -73,14 +28,7 @@ function About() {
         <button>Contacter moi</button>
       </div>  
       </section>
-    </Wrapper>
-    </HomePageElm>
   )
 }
-
-const Wrapper = styled.div`
-/* omitted */
-`;
-
 
 export default About

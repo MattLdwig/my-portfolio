@@ -7,28 +7,23 @@ import posed, { PoseGroup } from 'react-pose';
 
 import Home from './Components/Home'
 import About from './Components/About'
+import Services from './Components/Services'
+
 import SelectedWork from './Components/SelectedWork'
 
-import logo from './logo.svg';
-
-import Container from './Components/Container'
 import './App.css';
-import { dilate } from 'popmotion/lib/calc';
-
-const RouteContainer = posed.div({
-  enter: { opacity: 1, delay: 300, beforeChildren: true },
-  exit: { opacity: 0 }
-});
-
-const App = () => (
-  render() {
-    return (
-    <Wrapper>
-     <Header setAbout={this.setAbout}/>
-     <About />
-    </Wrapper>
-  )
-  }
-);
+  
+  class App extends React.Component {
+    render () {
+      return (
+        <div className="app">
+          <Home />
+          <Services />
+          <SelectedWork />
+          <About />
+        </div>
+      )
+    }
+  };
 
 export default App;

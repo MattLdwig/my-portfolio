@@ -13,6 +13,8 @@
 
 @import url("https://use.typekit.net/tgj3efo.css");
 
+/** GENERAL **/
+
 body {
   background-color: var(--lightGray);
   font-family: adobe-garamond-pro, serif;
@@ -21,31 +23,30 @@ body {
   font-weight: 400;
 }
 
-h2 {
-  font-size: 2.369em;
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header--container,
+.services--container,
+.selected--case-studies,
+.about {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header--container > *,
+.services--container > *,
+.about > * {
+  grid-column: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.selected--container {
+  grid-column: 1 / -1;
 }
-
 .arrow {
   width: 50px;
 }
@@ -54,11 +55,45 @@ h2 {
   text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/** Fonts **/
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: adobe-garamond-pro, serif;
+}
+
+h1 {
+  font-size: 6.854em;
+}
+
+h2 {
+  font-size: 4.236em;
+}
+
+h3 {
+  font-size: 2.618em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 4.854em;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h2 {
+    font-size: 2.236em;
+  }
+  
+  h3 {
+    font-size: 1.618em;
+  }
+  
+  p {
+    font-size: 1.25em;
   }
 }

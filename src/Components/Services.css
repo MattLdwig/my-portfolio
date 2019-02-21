@@ -6,7 +6,6 @@ h3 {
 .services--container {
     background-color: #FFF;
     display: grid;
-    grid-template-columns: 1fr 1fr 10px 960px 10px 1fr 1fr;
     min-height: 100vh;
 }
 
