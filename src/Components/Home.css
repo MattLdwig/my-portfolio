@@ -36,7 +36,7 @@
 }
 
 .accent--color {
-    color: var(--lighterGray);
+    color: var(--accent);
 }
 
 .inline {
@@ -79,6 +79,7 @@
 .header--pres > p,
 .header--contact > p {
     color: var(--black);
+    font-size: 1.5em;
 }
 
 .cls-1 {

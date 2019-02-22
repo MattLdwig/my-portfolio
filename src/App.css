@@ -1,5 +1,4 @@
 :root {
-  --almond: #70A4A2;
   --black: #1A191B;
   --lightPink: #F1DED4;
   --blue: #7091B1;
@@ -9,6 +8,7 @@
   --sand: #D4D4D4;
   --lightGreen: #D8E6F1;
   --lightBlue: #E6F7DF; 
+  --accent: #FF7A69
 }
 
 @import url("https://use.typekit.net/tgj3efo.css");
@@ -46,6 +46,7 @@ body {
 
 .selected--container {
   grid-column: 1 / -1;
+  padding: 2em 0;
 }
 .arrow {
   width: 50px;
@@ -77,7 +78,9 @@ h3 {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.7;
 }
 
 @media screen and (max-width: 950px) {

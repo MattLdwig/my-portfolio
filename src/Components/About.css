@@ -4,6 +4,13 @@
     align-items: center;
     color: var(--black);
     padding: 3.5em 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+.about--title {
+    font-size: 4.236em;
+    text-align: center;
 }
 
 .align-center {
@@ -16,5 +23,8 @@
 }
 
 .about--call {
-    grid-column: 2;
+    font-family: 'Libre Franklin';
+    font-size: 1.563em;
+    color: var(--accent);
+    font-weight: 400;
 }

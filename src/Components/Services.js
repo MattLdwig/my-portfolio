@@ -18,6 +18,7 @@ class Services extends React.Component {
             <h3 className="service--title">Développement web</h3>
             <p className="service--desc">
                 I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
+                I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
             </p>
             </div>
         </div>
@@ -26,6 +27,7 @@ class Services extends React.Component {
             <div className="service--desc-container">
             <h3 className="service--title">Web Design</h3>
             <p className="service--desc">
+                I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
                 I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
             </p>
             </div>
@@ -36,6 +38,7 @@ class Services extends React.Component {
             <h3 className="service--title">Développement Wordpress</h3>
             <p className="service--desc">
                 I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
+                I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
             </p>
             </div>
         </div>
@@ -44,6 +47,7 @@ class Services extends React.Component {
             <div className="service--desc-container">
             <h3 className="service--title">SEO (Search Engine Optimisation)</h3>
             <p className="service--desc">
+                I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
                 I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
             </p>
             </div>

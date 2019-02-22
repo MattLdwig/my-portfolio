@@ -16,17 +16,15 @@ function About() {
           Spécialisé dans le devéloppement Front-end, j'ai également une passion dévorante pour le design
           et tout ce qui s'y rapporte. J'aime résoudre des problèmes avec élégance, créer des interfaces
           sobres et respectueuse de l'utilisateur et développer des expériences riches et interractives.</p>
-      </div>
-      <div className="about--call">
-        <h2>&#x1F917;</h2>
-        <h3>Je suis actuellement disponible pour du travail freelance.</h3>
+          <h3 className="about--call">Je suis actuellement disponible pour du travail freelance.</h3>
         <p>
           Si vous avez un projet que vous aimeriez démarrer, que vous pensez que 
           je pourrais vous aider à sa réalisation, ou que vous avez simplement envie 
           de me dire bonjour, contacter moi.
         </p>
         <button>Contacter moi</button>
-      </div>  
+      </div>
+        
       </section>
   )
 }

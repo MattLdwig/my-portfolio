@@ -17,35 +17,40 @@ function SelectedWork() {
           <div className="selected--page">
               <img src={ab} className="selected--img" />
               <h2 className="selected--title">Amande et Basilic</h2>
-              <p className="selected--sub">Wordpress Theme / React / Web design / SEO</p>
+              <p className="selected--sub">Wordpress Theme | React | Web design | SEO</p>
               <p className="selected--case">
-                J'ai travaillé sur la conception du thème Wordpress d'amandebasilic.com. Des wireframes jusqu'à la mise en ligne,
+                J'ai travaillé sur la conception du thème Wordpress d'amandebasilic.com. <br/><br/>
+                Des wireframes jusqu'à la mise en ligne,
                 j'ai pris en charge l'UI design du site, la réalisation du thème élaboré avec React et utilisant l'API Wordpress, 
                 ainsi que l'optimisation de son SEO.
               </p>
-              <button className="selected--btn">Voir le site</button>
+              <a href="https://www.amandebasilic.com"><button className="selected--btn">Voir le site</button></a>
           </div>
       </div>
       <div className="selected--container case-two">
           <div className="selected--page">
               <img src={drum} className="selected--img" />
               <h2 className="selected--title">React Drum Machine</h2>
-              <p className="selected--sub">Développement Front-end / React </p>
+              <p className="selected--sub">Développement Front-end | React </p>
               <p className="selected--case">
                 Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
+                Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
+
+                Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
+
               </p>
-              <button className="selected--btn">Voir le site</button>
+              <a href="https://www.mattldwig.github.io/react-drum-machine"><button className="selected--btn">Voir le site</button></a>
           </div>
       </div>
       <div className="selected--container  case-three">
           <div className="selected--page">
               <img src={clem} className="selected--img" />
-              <h2 className="selected--title">Minimalist Pomodoro</h2>
-              <p className="selected--sub">Développement Front-end / React</p>
+              <h2 className="selected--title">Clementine Photography</h2>
+              <p className="selected--sub">Développement Front-end | Web Design</p>
               <p className="selected--case">
                 J'ai travaillé sur la réalisation de minipomo.co.
               </p>
-              <button className="selected--btn">Voir le site</button>
+              <a href="https://www.clementine.photography"><button className="selected--btn">Voir le site</button></a>
           </div>
       </div>
     </section>

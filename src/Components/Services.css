@@ -7,6 +7,7 @@ h3 {
     background-color: #FFF;
     display: grid;
     min-height: 100vh;
+    padding: 3rem 0;
 }
 
 .services--title {
@@ -27,26 +28,17 @@ h3 {
 .service--wordpress,
 .service--seo {
     grid-column: 4;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
     font-size: 1.333em;
     margin: 2em 0;
-}
-
-.service--desc-container {
-    grid-column: 5 / -1;
-}
-
-.service--desc-container_right {
-    grid-column: 1 / 9;
 }
 
 .service--image > svg {
     width: 100px;
     height: 100px;
-    grid-column: 3 / 4;
+    margin-right: 3em;
 }
 
 @media screen and (max-width: 1120px) {
