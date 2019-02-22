@@ -6,10 +6,10 @@ import posed, { PoseGroup } from 'react-pose';
 
 
 import Home from './Components/Home'
-import About from './Components/About'
-import Services from './Components/Services'
-
 import SelectedWork from './Components/SelectedWork'
+import Services from './Components/Services'
+import About from './Components/About'
+import Footer from './Components/Footer'
 
 import './App.css';
   
@@ -21,6 +21,7 @@ import './App.css';
           <Services />
           <SelectedWork />
           <About />
+          <Footer />
         </div>
       )
     }

@@ -65,7 +65,8 @@ h4 {
   font-family: adobe-garamond-pro, serif;
 }
 
-h1 {
+h1,
+.header--hello {
   font-size: 6.854em;
 }
 
@@ -82,6 +83,12 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   line-height: 1.7;
 }
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 950px) {
   h1 {

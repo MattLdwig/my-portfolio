@@ -43,6 +43,10 @@
     display: inline-block;
 }
 
+.header--seo-title {
+    display: inline;
+}
+
 .header--hello,
 .header--hello-name {
     font-family: 'Abril Fatface', cursive;
@@ -80,6 +84,11 @@
 .header--contact > p {
     color: var(--black);
     font-size: 1.5em;
+}
+
+.header--seo-title {
+    font-size: 1em;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .cls-1 {
