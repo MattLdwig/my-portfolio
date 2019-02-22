@@ -3,9 +3,8 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import Hero from './Hero'
 
-import logo from '../img/SVG/logo.svg'
-import Logo from './Logo'
-import Arrow from './Arrow'
+import Logo from './SVG/Logo'
+import Arrow from './SVG/Arrow'
 import './Home.css'
 
 

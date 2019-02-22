@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from "styled-components";
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
-import Arrow from './Arrow'
+import Arrow from './SVG/Arrow'
 import './Home.css'
 
 
