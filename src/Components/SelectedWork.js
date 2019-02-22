@@ -33,7 +33,8 @@ function SelectedWork() {
               <h2 className="selected--title">React Drum Machine</h2>
               <p className="selected--sub">Développement Front-end | React </p>
               <p className="selected--case">
-                Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
+                Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine virtuelle. L'objectif était de développer
+                une application web permettant
                 Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
 
                 Dans le cadre de ma certification Front-end, j'ai réalisé une drum machine
